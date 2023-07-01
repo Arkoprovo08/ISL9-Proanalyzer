@@ -1,0 +1,11 @@
+P_id,position,full name,name,country,club,age,rating,fantasy points,matches,min,goals,assists,goal conversion rate,goals/game,shots,crosses,chances created,passes,touches,avg passes/game,pass accuracy,tackles,interceptions,clearances,blocks,fouls,y_card,r_card
+21,DEF,Sandesh Jhingan,S.Jhingan,India,Bengaluru FC,29,6.5,8,22,2048,0,0,0,0,8,1,2,675,1001,30.68,77.33,45,38,165,33,22,3,0
+22,DEF,Odei Onaindia,Onaindia,Spain,Hyderabad FC,33,6.55,8,21,1920,1,1,11,0.05,9,2,2,848,1062,40.38,79.59,38,23,94,31,19,2,0
+23,DEF,Lalchungnunga,Lalchungnunga,India,East Bengal FC,22,6.02,7,19,1682,0,0,0,0,5,2,2,509,755,26.79,73.47,67,25,86,43,19,4,0
+24,DEF,Brendan Hamill,B.Hamill,Australia,ATK Mohun Bagan,30,6.38,7.5,20,1648,0,0,0,0,13,0,4,790,1004,39.5,86.2,37,26,83,31,11,7,0
+25,DEF,Anwar Ali,Anwar A.,India,FC Goa,22,6.6,8,20,1798,1,2,7,0.05,15,6,9,1305,1525,65.25,82.75,36,25,80,34,13,2,0
+26,DEF,Mourtada Fall,M.Fall,Senegal,Mumbai City FC,35,6.25,7.5,18,1065,1,2,9,0.06,11,1,6,644,810,35.78,83.22,17,18,78,20,9,3,0
+27,DEF,Mehtab Singh,Mehtab S.,India,Mumbai City FC,24,6.8,8.5,21,1863,2,0,22,0.1,9,1,4,1159,1358,55.19,87.66,36,25,76,45,7,3,0
+28,DEF,Carlos Delgado,C.Delgado,Spain,Odisha FC,33,6.19,7,21,1879,0,0,0,0,13,0,3,874,1093,41.62,78.14,49,42,74,22,14,1,0
+29,DEF,Pratik Chaudhari,P.Chaudhari,India,Jamshedpur FC,33,6.08,7,17,1273,0,0,0,0,12,0,4,445,669,26.18,68.31,49,30,73,24,21,5,0
+30,DEF,Aaron Evans,A.Evans,Australia,NorthEast United FC,28,5.81,6.5,19,1398,2,0,67,0.11,3,4,1,551,752,29,79.49,31,19,73,29,13,3,0

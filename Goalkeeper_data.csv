@@ -1,0 +1,11 @@
+P_id,position,name,full name,country,club,age,matches,min,goals conceded,saves,saves percentage,goals conceded/game,clean sheets,catches,chances created,passes,touches,avg passes/game,pass accuracy,shots faced,shots on target,clearances,fouls,y_card,r_card
+31,GK,Gurpreet S.,Gurpreet Sandhu,India,Bengaluru FC,31,24,2228,27,71,72.44,1.13,7,136,3,319,800,13.29,47.02,295,98,26,2,2,0
+32,GK,V.Kaith,Vishal Kaith,India,ATK Mohun Bagan,26,24,2195,19,67,77.9,0.79,12,94,1,300,684,12.5,71.33,240,86,37,2,2,0
+33,GK,P.Lachenpa,Phurba Lachenpa,India,Mumbai City FC,25,22,2010,23,64,73.56,1.05,7,109,0,348,742,15.82,66.09,218,87,42,0,1,0
+34,GK,M.Michu,Mirshad Michu,India,NorthEast United FC,29,10,900,25,56,69.13,2.5,1,62,0,149,371,14.9,49.66,179,81,13,2,2,0
+35,GK,Amrinder S.,Amrinder Singh,India,Odisha FC,30,21,1890,34,55,61.79,1.62,2,112,1,464,839,22.1,60.99,215,89,35,0,3,0
+36,GK,Kamaljit S.,Kamaljit Singh,India,East Bengal FC,27,17,1530,32,54,62.79,1.88,3,89,0,135,480,7.94,42.96,238,86,33,0,1,0
+37,GK,Gurmeet S.,Gurmeet Singh,India,Hyderabad FC,23,14,1290,9,41,82,0.64,7,69,0,170,424,12.14,50,133,50,12,0,1,0
+38,GK,PS.Gill,Prabhsukhan Gill,India,Kerala Blasters FC,22,19,1718,28,40,58.82,1.47,4,114,1,223,533,11.74,55.6,194,68,21,2,3,0
+39,GK,Dheeraj M.,Dheeraj Moirangthem,India,FC Goa,22,19,1681,34,37,52.11,1.79,4,97,0,353,652,18.58,72.52,182,71,28,4,2,0
+40,GK,Arindam B.,Arindam Bhattacharja,India,NorthEast United FC,33,10,900,30,34,53.12,3,0,54,0,121,325,12.1,51.23,163,64,19,0,1,0

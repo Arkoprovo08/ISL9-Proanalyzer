@@ -1,0 +1,45 @@
+﻿Player Id,Position,Name,Country,Club,Rating,Value
+1,FWD,Diego Mauricio,Brazil,Odisha FC,7.25,9.5
+2,FWD,Cleiton Silva,Brazil,East Bengal FC,7.85,10.5
+3,FWD,Dimitri Petratos,Australia,ATK Mohun Bagan,8.08,11
+4,FWD,Jorge Diaz,Argentina,Mumbai City FC,7.4,9.5
+5,FWD,Bartholomew Ogbeche,Nigeria,Hyderabad FC,7.3,9.5
+6,FWD,Dimitrios Diamantakos,Greece,Kerala Blasters FC,7.37,9.5
+7,FWD,Lallianzuala Chhangte,India,Mumbai City FC,8.22,11
+8,FWD,Wilmar Gil,Colombia,North East United FC,6.97,8.5
+9,FWD,Greg Stewart,England,Mumbai City FC,8.2,11
+10,FWD,Naorem Singh,India,East Bengal,6.77,8.5
+11,FWD,Roy Krishna,Fiji,Bengaluru FC,6.96,8.5
+12,FWD,Harry Sawyer,Australia,Jamshedpur FC,6.1,7
+13,FWD,Sunil Chhetri,India,Bengaluru FC,6.46,8
+14,MID,Carl McHugh,Ireland,ATK Mohun Bagan,6.56,8.5
+15,MID,Sahal Samad,India,Kerala Blasters FC,6.26,8
+16,MID,Anirudh Thapa,India,Chennaiyin FC,6.59,8.5
+17,MID,Iker Guarrotxena,Spain,FC Goa,7.42,9.5
+18,MID,Abdenasser El Khayati,Netherlands,Chennaiyin FC,7.41,9.5
+19,MID,Noah Wail Sadaoi,USA,FC Goa,7.69,10
+20,MID,Javier Hernandez,Spain,Bengaluru FC,7.5,10
+21,MID,Halicharan Narzary,India,Hyderabad FC,6.75,8.5
+22,MID,Borja Herrera,Spain,Hyderabad FC,6.61,8.5
+23,MID,Adrian Luna,Uruguay,Kerala Blasters FC,7.74,10
+24,MID,Hugo Boumous,France,ATK Mohun Bagan,7.23,9.5
+25,DEF,Sandesh Jhingan,India,Bengaluru FC,6.5,8
+26,DEF,Odei Onaindia,Spain,Hyderabad FC,6.55,8
+27,DEF,Lalchungnunga,India,East Bengal FC,6.02,7
+28,DEF,Brendan Hamill,Australia,ATK Mohun Bagan,6.38,7.5
+29,DEF,Anwar Ali,India,FC Goa,6.6,8
+30,DEF,Mourtada Fall,Senegal,Mumbai City FC,6.25,7.5
+31,DEF,Mehtab Singh,India,Mumbai City FC,6.8,8.5
+32,DEF,Carlos Delgado,Spain,Odisha FC,6.19,7
+33,DEF,Pratik Chaudhari,India,Jamshedpur FC,6.08,7
+34,DEF,Aaron Evans,Australia,NorthEast United FC,5.81,6.5
+35,GK,Gurpreet S.,India,Bengaluru FC,7.04,8.5
+36,GK,V.Kaith,India,ATK Mohun Bagan,7.45,9.5
+37,GK,P.Lachenpa,India,Mumbai City FC,7.19,9
+38,GK,M.Michu,India,NorthEast United FC,6.67,6.5
+39,GK,Amrinder S.,India,Odisha FC,6.37,7
+40,GK,Kamaljit S.,India,East Bengal FC,6.57,6.5
+41,GK,Gurmeet S.,India,Hyderabad FC,7.35,9
+42,GK,PS.Gill,India,Kerala Blasters FC,6.43,8
+43,GK,Dheeraj M.,India,FC Goa,6.31,7.5
+44,GK,Arindam B.,India,NorthEast United FC,5.92,6

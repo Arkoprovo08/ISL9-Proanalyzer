@@ -1,0 +1,25 @@
+P_id,position,full name,name,country,club,age,rating,Fantasy Points,matches,min,goals,assists,goal conversion rate,goals/game,shots,crosses,chances created,passes,touches,avg passes/game,pass accuracy,tackles,interceptions,clearances,blocks,fouls,y_card,r_card
+1,FWD,Diego Mauricio,D.Mauricio,Brazil,Odisha FC,31,7.25,9.5,21,1536,12,4,21,0.57,58,8,15,375,596,17.86,69.33,20,1,4,9,14,2,0
+2,FWD,Cleiton Silva,C.Silva,Brazil,East Bengal FC,36,7.85,10.5,20,1778,12,1,21,0.6,58,18,20,619,872,30.95,80.45,38,4,8,19,8,4,0
+3,FWD,Dimitri Petratos,D.Petratos,Australia,ATK Mohun Bagan,30,8.08,11,23,2091,12,7,16,0.52,75,58,61,737,930,32.04,72.86,19,2,9,13,7,1,0
+4,FWD,Jorge Diaz,J.Diaz,Argentina,Mumbai City FC,30,7.4,9.5,20,1507,11,6,28,0.55,39,6,36,329,496,16.45,74.16,35,1,7,11,14,7,0
+5,FWD,Bartholomew Ogbeche,B.Ogbeche,Nigeria,Hyderabad FC,38,7.3,9.5,21,1610,10,2,18,0.48,57,3,19,429,690,20.43,69.93,35,11,19,20,20,0,0
+6,FWD,Dimitrios Diamantakos,Dimitrios D.,Greece,Kerala Blasters FC,30,7.37,9.5,21,1738,10,3,21,0.48,47,15,23,417,648,19.86,74.34,38,1,15,15,23,2,0
+7,FWD,Lallianzuala Chhangte,LZ.Chhangte,India,Mumbai City FC,25,8.22,11,22,1857,10,6,20,0.45,51,53,33,744,1003,33.82,77.68,38,6,8,26,13,1,0
+8,FWD,Wilmar Gil,W.Gil,Colombia,North East United FC,32,6.97,8.5,11,738,8,0,32,0.73,25,3,7,179,297,16.27,73.74,14,3,12,4,8,1,1
+9,FWD,Greg Stewart,G.Stewart,England,Mumbai City FC,33,8.2,11,20,1562,7,8,11,0.35,62,35,55,937,1179,46.85,79.61,31,8,7,12,12,3,0
+10,FWD,Naorem Singh,Naorem S.,India,East Bengal,24,6.77,8.5,19,1524,2,7,13,0.11,15,59,27,602,809,31.68,60.29,68,5,11,26,12,1,0
+11,FWD,Roy Krishna,R.Krishna,Fiji,Bengaluru FC,35,6.96,8.5,22,1997,6,5,13,0.27,46,14,30,437,705,19.86,70.48,47,4,17,16,31,4,0
+12,FWD,Harry Sawyer,H.Sawyer,Australia,Jamshedpur FC,26,6.1,7,18,870,2,5,5,0.11,41,13,23,242,413,13.44,63.22,26,3,9,8,14,1,0
+13,FWD,Sunil Chhetri,S.Chhetri,India,Bengaluru FC,38,6.46,8,21,1287,5,0,15,0.24,33,9,16,381,565,18.14,70.86,30,4,9,10,14,2,0
+14,MID,Carl McHugh,C.McHugh,Ireland,ATK Mohun Bagan,30,6.56,8.5,21,1478,3,1,17,0.14,18,1,15,915,1137,43.57,77.81,92,20,38,20,34,5,0
+15,MID,Sahal Samad,Sahal S.,India,Kerala Blasters FC,26,6.26,8,20,1310,3,2,9,0.15,32,29,14,383,575,19.15,69.71,43,9,4,19,14,1,0
+16,MID,Anirudh Thapa,A.Thapa,India,Chennaiyin FC,25,6.59,8.5,16,1198,2,0,9,0.13,23,16,24,659,809,41.19,75.41,20,13,6,23,7,2,0
+17,MID,Iker Guarrotxena,Iker G.,Spain,FC Goa,30,7.42,9.5,20,1690,11,0,18,0.55,57,6,15,566,840,28.3,75.79,47,10,12,17,22,1,0
+18,MID,Abdenasser El Khayati,A.El Khayati,Netherlands,Chennaiyin FC,34,7.41,9.5,12,572,9,5,39,0.75,23,19,18,325,400,27.08,64.92,7,0,2,4,4,0,0
+19,MID,Noah Wail Sadaoi,NW.Sadaoi,USA,FC Goa,29,7.69,10,20,1464,9,9,16,0.45,56,119,27,486,752,24.3,55.14,39,5,7,14,10,1,0
+20,MID,Javier Hernandez,J.Hernandez,Spain,Bengaluru FC,34,7.5,10,22,1834,7,5,11,0.32,62,36,42,781,1103,35.5,71.7,42,18,3,18,11,3,0
+21,MID,Halicharan Narzary,H.Narzary,India,Hyderabad FC,29,6.75,8.5,19,1399,3,6,10,0.16,29,62,27,469,669,24.68,63.53,34,14,13,22,10,0,0
+22,MID,Borja Herrera,Borja H.,Spain,Hyderabad FC,30,6.61,8.5,22,1298,4,5,12,0.18,32,56,32,673,861,30.59,63,41,17,13,20,13,1,0
+23,MID,Adrian Luna,A.Luna,Uruguay,Kerala Blasters FC,31,7.74,10,20,1808,4,6,9,0.2,47,61,48,1094,1378,54.7,72.66,55,12,2,33,16,4,0
+24,MID,Hugo Boumous,H.Boumous,France,ATK Mohun Bagan,27,7.23,9.5,20,1559,5,4,17,0.25,30,23,48,763,1001,38.15,74.96,48,5,0,20,17,5,0
