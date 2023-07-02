@@ -28,7 +28,7 @@ per_90_data = df[per_match]
 cols_for_radar = ['goals conceded','saves', 'clean sheets', 'catches','pass accuracy', 'touches per match','shots on target', 'clearances','clean sheets %']
 
 #Defender Analysis
-df_def = pd.read_csv('def_stats.csv')
+df_def = pd.read_csv("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/def_stats.csv")
 df_def = df_def.set_index('P_id')
 cols_for_permatch_def = ['passes','touches','clearances']
 for i in cols_for_permatch_def:
@@ -38,7 +38,7 @@ per_90_data_def = df_def[per_match_def]
 cols_for_radar_def = ['pass accuracy','blocks','goal conversion rate','tackles','interceptions','clearances per match','passes per match', 'touches per match']
 
 #Midfielder/Forward Dataset load
-df_all = pd.read_csv('mid_data.csv')
+df_all = pd.read_csv("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/mid_data.csv")
 
 #Mid Analysis
 df_mid = df_all.tail(11)
@@ -57,10 +57,10 @@ per_90_data_fwd = df_fwd[per_match_fwd]
 cols_for_radar_fwd = ['touches per game','goals per game%','shots','assists','avg passes/game','chances created','pass accuracy', 'interceptions','blocks']
 
 #Standings
-df_league = pd.read_csv('Standings.csv')
+df_league = pd.read_csv("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/Standings.csv")
 
 #Fantasy
-f1 = pd.read_csv('f1.csv')
+f1 = pd.read_csv("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/f1.csv")
 fan_fwd = f1.head(13)
 fan_fwd = fan_fwd.set_index('Player Id')
 fan_fwd = fan_fwd.style.format(precision=1)
@@ -68,7 +68,7 @@ fan_mid = f1.tail(11)
 fan_mid = fan_mid.set_index('Player Id')
 fan_mid = fan_mid.style.format(precision=1)
 
-f2 = pd.read_csv('f2.csv')
+f2 = pd.read_csv("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/f2.csv")
 fan_def = f2.head(10)
 fan_def = fan_def.set_index('Player Id')
 fan_def = fan_def.style.format(precision=1)
@@ -78,7 +78,7 @@ fan_gk = fan_gk.style.format(precision=1)
 
 st.title("ISL ProAnalyzer")
 st.header("Hero ISL 2022-23 Analysis")
-st.image("lsilogolaunch281014.jpg",width = 200)
+st.image("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/lsilogolaunch281014.jpg",width = 200)
 
 #Dashbord
 st.sidebar.header('Dashboard `ISL ProAnalyzer`')
@@ -86,7 +86,7 @@ st.sidebar.subheader('Features')
 nav = st.sidebar.radio("",["Home","Goalkeepers Analysis","Defenders Analysis","Midfeilders Analysis","Strikers Analysis",'Create your own fantasy team','About Us'])
 if nav == "Home":
     st.header("Home")
-    st.video("vi.mp4")
+    st.video("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/vi.mp4")
     st.write("The 2022–23 Indian Super League was the ninth season of the Indian Super League, the first season as the only top division,[1] and the 27th season of top-tier Indian football. It commenced on 7 October 2022 and concluded with the final on 18 March 2023.")
     st.write("Jamshedpur were the defending premiers and Hyderabad were the defending champions.Mumbai City won their second League Winners' Shield and ATK Mohun Bagan won their first championship title having defeating Bengaluru in the final.")
     st.markdown("""
@@ -96,23 +96,23 @@ if nav == "Home":
 2. The traditional home and away format has returned.
 ## Clubs Participating
 """)
-    st.image("team.png")
+    st.image("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/team.png")
     st.markdown("""
     ## Match Results 
     """)
-    st.image("Results.png")
+    st.image("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/Results.png")
     st.markdown("""
     ## Form
     """)
-    st.image("Form.png")
+    st.image("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/Form.png")
     st.markdown("""
     ## Playoffs 
     """)
-    st.image("Playoffs.png")
+    st.image("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/Playoffs.png")
     st.markdown("""
     ## Champions 
     """)
-    st.image("atk.jpg",width = 200)
+    st.image("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/atk.jpg",width = 200)
     st.write("ATK Mohun Bagan held their nerves in a tightly contested Hero Indian Super League (ISL) final as they beat Bengaluru FC 4-3 on penalties to lift the Hero ISL title at the Jawaharlal Nehru Stadium in Goa on Saturday. In a game that ended 2-2 in regulation time, ATKMB’s Dimitri Petratos scored all three penalties he took on the night before Vishal Kaith’s save from Bruno Ramires’ penalty in the shootout brought them one step closer. Bengaluru FC’s Pablo Perez then sent his spot-kick over the bar as the Mariners sealed the result in a game where they had unsettled Bengaluru FC right from the start.")
 if nav == "Goalkeepers Analysis":
 
@@ -1121,7 +1121,7 @@ if nav == "Create your own fantasy team":
         st.error("Please complete your Team")
 if nav == "About Us":
     st.header("About Us")
-    ima = ["arko.png","kushal.png"]
+    ima = ["https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/arko.png","https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/kushal.png"]
     st.image(ima, width = 300)
     st.markdown(" ### Created by Arkoprovo Ghosh and Kushal Nandi")
     st.subheader("Linkedin Profiles")
@@ -1132,10 +1132,10 @@ nav2 = st.sidebar.selectbox('Select below', ('Select here','Final Season Standin
 
 if nav2 == "Final Season Standings":
     st.header("Final ISL Season Standings 2022-23")
-    st.image('stand.png')
+    st.image("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/stand.png")
 if nav2 == "Fairplay Table":
     st.header("Final ISL Season Fairplay Standings")
-    st.image('fairplay.png')
+    st.image("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/fairplay.png")
 
 st.sidebar.markdown('''
 
