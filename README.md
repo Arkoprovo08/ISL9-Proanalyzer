@@ -1,5 +1,4 @@
 # ISL9-Proanalyzer
-# ISL9Pro
 
 ISL9Pro is a web app dedicated to analyzing the best teams and players from Hero ISL Season 9, along with an interactive feature for creating Fantasy Teams. It provides a comprehensive platform for football enthusiasts to delve into the statistics, compare players, and build their dream teams.
 
