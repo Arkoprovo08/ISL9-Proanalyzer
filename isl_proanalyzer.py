@@ -78,7 +78,7 @@ fan_gk = fan_gk.style.format(precision=1)
 
 st.title("ISL ProAnalyzer")
 st.header("Hero ISL 2022-23 Analysis")
-st.image("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/83c0136a25f9d71e1e35fb953d5274fd963471d5/lsilogolaunch281014.jpg",width = 200)
+st.image("",width = 200)
 
 #Dashbord
 st.sidebar.header('Dashboard `ISL ProAnalyzer`')
