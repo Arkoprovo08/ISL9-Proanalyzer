@@ -28,7 +28,7 @@ per_90_data = df[per_match]
 cols_for_radar = ['goals conceded','saves', 'clean sheets', 'catches','pass accuracy', 'touches per match','shots on target', 'clearances','clean sheets %']
 
 #Defender Analysis
-df_def = pd.read_csv("https://raw.githubusercontent.com/Arkoprovo08/ISL9-Proanalyzer/master/def_stats.csv")
+df_def = pd.read_csv("https://raw.githubusercontent.com/Arkoprovo08/ISL9-Proanalyzer/master/def_stats.csv", on_bad_lines='skip')
 df_def = df_def.set_index('P_id')
 cols_for_permatch_def = ['passes','touches','clearances']
 for i in cols_for_permatch_def:
@@ -38,7 +38,7 @@ per_90_data_def = df_def[per_match_def]
 cols_for_radar_def = ['pass accuracy','blocks','goal conversion rate','tackles','interceptions','clearances per match','passes per match', 'touches per match']
 
 #Midfielder/Forward Dataset load
-df_all = pd.read_csv("https://raw.githubusercontent.com/Arkoprovo08/ISL9-Proanalyzer/master/mid_data.csv")
+df_all = pd.read_csv("https://raw.githubusercontent.com/Arkoprovo08/ISL9-Proanalyzer/master/mid_data.csv", on_bad_lines='skip')
 
 #Mid Analysis
 df_mid = df_all.tail(11)
@@ -57,10 +57,10 @@ per_90_data_fwd = df_fwd[per_match_fwd]
 cols_for_radar_fwd = ['touches per game','goals per game%','shots','assists','avg passes/game','chances created','pass accuracy', 'interceptions','blocks']
 
 #Standings
-df_league = pd.read_csv("https://raw.githubusercontent.com/Arkoprovo08/ISL9-Proanalyzer/master/Standings.csv")
+df_league = pd.read_csv("https://raw.githubusercontent.com/Arkoprovo08/ISL9-Proanalyzer/master/Standings.csv", on_bad_lines='skip')
 
 #Fantasy
-f1 = pd.read_csv("https://raw.githubusercontent.com/Arkoprovo08/ISL9-Proanalyzer/master/f1.csv")
+f1 = pd.read_csv("https://raw.githubusercontent.com/Arkoprovo08/ISL9-Proanalyzer/master/f1.csv", on_bad_lines='skip')
 fan_fwd = f1.head(13)
 fan_fwd = fan_fwd.set_index('Player Id')
 fan_fwd = fan_fwd.style.format(precision=1)
@@ -68,7 +68,7 @@ fan_mid = f1.tail(11)
 fan_mid = fan_mid.set_index('Player Id')
 fan_mid = fan_mid.style.format(precision=1)
 
-f2 = pd.read_csv("https://raw.githubusercontent.com/Arkoprovo08/ISL9-Proanalyzer/master/f2.csv")
+f2 = pd.read_csv("https://raw.githubusercontent.com/Arkoprovo08/ISL9-Proanalyzer/master/f2.csv", on_bad_lines='skip')
 fan_def = f2.head(10)
 fan_def = fan_def.set_index('Player Id')
 fan_def = fan_def.style.format(precision=1)
