@@ -14,6 +14,7 @@ st.set_page_config(layout='wide', initial_sidebar_state='expanded')
 
 #Goalkeeper Analysis
 df = pd.read_csv("https://github.com/Arkoprovo08/ISL9-Proanalyzer/blob/8e0d49c0b81b45ca0757efbf8d62dadf3fde3eef/Goalkeeper_data.csv", on_bad_lines='skip')
+st.table(df)
 df = df.set_index('P_id')
 
 df['goals conceded per match'] = df['goals conceded']/df['matches']
