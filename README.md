@@ -18,7 +18,7 @@ ISL9Pro is a web app dedicated to analyzing the best teams and players from Hero
 
 2. Start the web app by running `streamlit run app.py`.
 
-3. Access the web app through your browser at `[http://localhost:8501](https://isl9pro.streamlit.app/)`.
+3. Access the web app through your browser at `(https://isl9pro.streamlit.app/)`.
 
 4. Explore the various features and functionalities of ISL9Pro, including player analysis, team analysis, fantasy team creation, and player comparison.
 
